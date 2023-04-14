@@ -1,0 +1,240 @@
+/* body{
+    background: url('../img/Vector.png' ) no-repeat center;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: gokul;
+    src: url(./gokul.ttf);
+}
+body{
+    /* font-family: gokul; */
+    height: 5000px;
+}
+.nav{
+    text-align: center;
+    margin-top: -885px;
+    display: flex;
+    gap: 50px;
+    margin-left: 500px;
+    font-size: 25px;
+    color: white;
+}
+#lgo{
+     margin-top: 10px;
+    z-index: 500;
+    position: absolute;
+    top:30px;
+    left: 30px;
+    width: 160px;
+    
+}
+.p{
+    font-size: 80px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.btn{
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+    
+}
+#login{
+    width: 170px;
+    height: 86px;
+    border-radius: 18px;
+    color: blue;
+    font-size: 25px;
+    
+}
+#sign{
+    width: 170px;
+    height: 86px;
+    border-radius: 18px;
+    color: white; 
+    font-size: 25px; 
+    background-color: #F48C06;  
+}
+#man{
+    width: 900px;
+    height: 700px;
+    margin-left: 750px;
+    margin-top: -410px;
+}
+.pra{
+    font-size: 27px;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+    color: white;
+    font-weight: normal;
+    }
+    #get{
+        width: 250px;
+        height: 90px;
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 100px;
+        border-radius: 17px;
+        font-size: 24px;
+        color: white;
+        background-color: orange;
+    }
+    #play{
+       position: absolute;
+       margin-left: 340px;
+       margin-top: -210px;
+    }
+    .wth{
+        font-size: 25px;
+        color: white;
+        margin-left: 460px;
+        margin-top: -163px;
+    }
+    #brd{
+        width: 1200px;
+        height: 140px;
+        margin-left: 230px;
+        margin-top: 260px;
+    }
+    .sol{
+        color: #2E526B;
+        margin-left: 480px;
+        margin-top: 100px;
+        font-size: 29px;
+    }
+    .kodu{
+        border-bottom: solid violet;
+        width: 130px;
+        margin-left: 750px;
+        margin-top: 30px;
+    }
+    #food{
+        margin-left: 250px;
+        margin-top: 100px;
+        width: 100px;
+    }
+    .foo{
+        position: absolute;
+        border: solid rgb(248, 246, 246);
+        stroke: #DCE2EE;
+        height: 440px;
+        width: 340px;
+        left: 140px;
+        top: 1300px;
+        border-radius: 16px;
+    }
+    #fd{
+        text-align: center;
+        margin-top: 140px;
+        font-size: 34px;
+        color: #2E526B;
+    }
+    .fdc{
+        font-size: 30px;
+        margin-top: 109px;
+        text-align: center;
+    }
+    #txt{
+        margin-left: -870px !important;
+    }
+    /* aaaaaaaaaaaaa */
+    #fot{
+        width: 1700px;   
+    }
+   .as{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: -440px;
+    margin-left: 120px;
+    font-family: gokul;
+   }
+   #ge{
+    width: 260px;    
+    margin-top:80px;
+    margin-left: 120px;
+    height: 70px;
+    border-radius: 17px;
+    color: white;
+    background-color: orange;
+    font-size: 23px;
+   }
+   #py{
+    margin-left: 360px;
+    margin-top: -90px;
+   }
+   #whi{
+    font-size: 29px;
+    color: white;
+    margin-left: 484px;
+    margin-top: -115px;
+   }
+   #im{
+    margin-left: 100px;
+    margin-top: 300px;  
+    height: 100px;
+    width: 240px;  
+   }
+   #saaS{
+    font-size: 50px;
+    margin-top: -88px;
+    margin-left: 210px;
+   }
+   #lc{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 28px;
+   }
+#table{
+    display: flex;
+    margin-top: -190px;
+    margin-left: 540px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#tr{
+    display: flex;
+    gap: 90px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}   
+.soc{
+    position: absolute;
+    display: flex;
+    margin-left: 1346px;
+    margin-top: 80px;
+    
+}
+.done{
+    border-bottom: solid 1px #D7E1F4;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.cpy{
+    margin-left: 50px;
+    font-size: 30px;
+    color: #2E526B;
+}
+.end{
+    margin-left: 980px;
+    font-size: 28px;
+    margin-top: -30px;
+    color: #2E526B;
+}
+#folo{
+    margin-left: 60px;
+}
+/* #tre{
+    gap: 100px;
+    padding: 20px;
+} */

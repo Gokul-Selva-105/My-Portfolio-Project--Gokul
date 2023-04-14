@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="20">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link redl="shortcut icon" href="#">
+    </head>
+    <body>
+        <footer>
+            <div class="parent">
+                <div class="first">
+                    <img src="./img/Logo (1).svg" alt="Logo" width="160px">
+                    <p class="firstp">Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span></p>
+                </div>
+                <div id="data">
+                    <h2>Product</h2>
+                    <li>Features</li>
+                    <li>API</li>
+                    <li>Solutions</li>
+                </div>
+                <div id="data">
+                    <h2>Company</h2>
+                    <li>About Us</li>
+                    <li>Contact us </li>
+                    <li>Blog</li>
+                </div>
+                <div id="data">
+                    <h2>Support</h2>
+                    <li>Support center</li>
+                    <li>System status</li>
+                    <li>Languages</li>
+                </div>
+                
+                <div id="dataw">
+                    <h2>Follow Us</h2>
+                    <div class="logos">
+                        <img src="./img/Facebook.svg" alt="fb">
+                        <img src="./img/Twitter.svg" alt="twitter">
+                        <img src="./img/Instagram.svg" alt="Instagram">
+                    </div>
+                </div>
+            </div>
+            <div class="end">
+                <p>© 2022 Saas</p>
+                <div class="end-two">
+                    <p>Terms & Conditions </p>
+                    <span>|</span>
+                    <p> Privacy Policy</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <style>
+        @font-face {
+            font-family: gokul;
+            src: url('./css/gokul.ttf');
+        }
+        *{
+             margin:0px;
+            padding:0px;
+            font-family: gokul;
+            box-sizing: border-box;
+        }
+        .parent{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            gap:20px;
+            justify-content: space-around;
+            width: 95%;
+            cursor:pointer;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom:20px;
+            margin-top:30px;
+            border-bottom:1px solid #d7e1f4c3;
+        } 
+        .end{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 85%;
+            margin:10px auto;
+        }
+        .end-two{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            gap:10px;
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap:10px;
+        }
+        .firstp{
+            /* width: 60%; */
+        }
+        .firstp>span{
+            display: block;
+        }
+        #data{
+            display: flex;
+            flex-direction: column;
+            gap:7px;
+            padding-bottom:50px;
+            list-style-type: none;
+        }
+        #dataw{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:10px;
+            align-items:center;
+            margin-top:-80px;
+            /* margin-left:-40px!important; */
+            /* margin-right: 40px; */
+
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top:-50px;
+           gap:20px
+        }
+    </style>
+</html>
